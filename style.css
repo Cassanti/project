@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#ADC4CE, #FFF6DC);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container__calculadora {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 30%;
+    background-color: #F1F6F9;
+    padding: 100px 2.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'REM';
+}
+
+.container__calculadora h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container__calculadora label {
+    display: grid;
+    margin: 0.7em 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__calculadora input {
+    padding: auto;
+    margin: 0.5em 0;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #394867;
+    border-radius: 22px solid #394867;
+}
+
+.container__calculadora button {
+    margin: 0 5em;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #DAF5FF;
+    color: #000000;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcula Despesa</title>
+</head>
+<body>
+    <div class="container__calculadora">
+        <h1 class="cal__titulo">Calcule Suas Despesas</h1>
+        <form>
+            <label for="despesa" class="cal__titulo">Valor da Despesa:</label>
+            <input type="number" id="despesa">
+            <button id="addDespesa" class="botao">Adicionar Despesa</button>
+        </form>
+        <h2>Total da despesa: R$<span id="total-despesa"></span></h2>
+    </div>
+    <div>
+        <ul id="lista-despesa">
+
+        </ul>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
